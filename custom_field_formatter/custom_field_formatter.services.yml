@@ -1,0 +1,4 @@
+services:
+  custom_field_formatter.text_slugify_service:
+    class: Drupal\custom_field_formatter\TextSlugifyService
+    arguments: [ '@http_client' ]
